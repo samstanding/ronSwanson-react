@@ -4,7 +4,7 @@ import React from 'react';
 export class Button extends React.Component {
     render() {
         return (
-            <button onClick={this.props.onClick}> Get a Swanson </button>
+            <button onClick={this.props.onClick}>Get a Quote </button>
         );
     }
 }
