@@ -12,7 +12,7 @@ export class QuoteLoad extends React.Component {
     
     onLoad () {
         axios.get('http://ron-swanson-quotes.herokuapp.com/v2/quotes')
-        .then(response => console.log({quote: response.data}));
+        .then(response => this.setState({quote: response.data}));
     }
 
     render() {
